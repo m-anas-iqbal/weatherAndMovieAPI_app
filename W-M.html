@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="W-M.css">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+    <script src="W-M.js"></script>
+    <title>W-M</title>
+</head>
+<body>
+    <section class="inputs">
+    <div class="col">
+        <h1>Weather Information</h1>
+        <input type="text" class="col-lg-3" id="whether1" placeholder="Country" >
+        <input type="text"  id="whether2"  class="col-lg-3" placeholder="City" >
+        <button class="btn2"  onclick="whether()">Search</button>
+    </div>
+    <div class="col">
+        <h1>Movie</h1>
+        <input type="text" style="border: none;" class="col-lg-6" id="movie"  placeholder="Movie" >
+        <button onclick="movie()" class="btn2">Search</button>
+    </div>
+    <div class="col">
+        <h1>Web Series</h1>
+        <input type="text" class="col-lg-4"  id="web1" placeholder="Web Series name" >
+        <input type="number" class="col-lg-1" id="web2" placeholder="Season no" >
+        <input type="number" class="col-lg-1" id="web3" placeholder="Episode no" >
+        <button  onclick="web()"  class="btn2">Search</button>
+    </div>
+</section>
+<section>
+    <div id="weather" >
+        <h1 id="tittle"></h1>
+        <h3 id="subtittle"></h3>
+        <div class="mal">
+        <p id="icon"></p>
+        <p id="temp"></p>
+        <p id="feel"></p>
+        <p id="description"></p>
+        <p id="visibility"></p>
+        <p id="wind"></p>
+        <p id="pressure"></p>
+    </div>
+    </div>
+<div  id="movie3" >
+<h2 id="m-tittle"></h2>
+<img src="" id="m-img">
+<div class="description">
+    <p id="m-released"></p>
+    <p id="m-run"></p>
+    <p id="m-lang"></p>
+    <p id="m-imdb"></p>
+    <p id="m-genre"></p>
+    <p id="m-season"></p>
+    <p id="m-country"></p>
+    <p id="m-box"></p>
+    <p id="m-plote"></p>
+    <p id="m-director"></p>
+    <p id="m-actor"></p>
+</div>
+</div>
+<div id="web">
+    <h2 id="w-tittle"></h2>
+    <img src="" id="wb-img">
+    <div class="description">
+        <p id="w-released"></p>
+        <p id="w-run"></p>
+        <p id="w-lang"></p>
+        <p id="w-imdb"></p>
+        <p id="w-genre"></p>
+        <p id="w-season"></p>
+        <p id="w-episode"></p>
+        <p id="w-plote"></p>
+        <p id="w-director"></p>
+        <p id="w-actor"></p>
+        <p id="w-country"></p>
+    </div>
+    </div>
+</section>
+</body>
+</html>
